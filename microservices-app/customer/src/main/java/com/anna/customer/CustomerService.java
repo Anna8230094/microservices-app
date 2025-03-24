@@ -12,7 +12,7 @@ public record CustomerService(CustomerRepository customerRepository) {
                 .email(request.email()).build();
             //todo: Check if email is valid
             //todo: check if email is not taken
-            //todo: store customer in database
+            customerRepository.save(customer);
     }
 
 

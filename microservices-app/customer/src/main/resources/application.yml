@@ -5,7 +5,7 @@ spring:
         name: customer
     datasource:
         password: mysecretpassword
-        url: jdbc:postgresql://localhost:5432/customer #localhost:5432 because our application when it is started is not a container
+        url: jdbc:postgresql://localhost:5432/customer
         username: postgres
     jpa:
         hibernate:
@@ -15,5 +15,3 @@ spring:
                 dialect: org.hibernate.dialect.PostgreSQLDialect
                 format_sql: true
         show-sql: true
-
-
