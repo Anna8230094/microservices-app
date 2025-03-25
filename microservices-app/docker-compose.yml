@@ -116,3 +116,5 @@ networks:
 volumes:
   postgres:
   pgadmin:
+
+  #Normaly in microservices architecture you want to hava your database serverse independent

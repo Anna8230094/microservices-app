@@ -14,6 +14,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>customer</module>
+		<module>fraud</module>
 	</modules>
 	<name>microservices-app</name>
 	<description>Demo project for Spring Boot</description>
